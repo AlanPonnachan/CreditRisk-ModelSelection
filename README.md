@@ -6,7 +6,6 @@
 This project aims to build, evaluate, and compare machine learning models for classifying credit risk using XGBoost and Decision Tree algorithms. The objective is to predict whether a credit applicant is a "Good" or "Bad" credit risk based on historical data. The models were trained, validated, and tested on the given dataset.
 
 
-![titel_image](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ## Objectives
 
 - Credit Risk Assessment: Develop a model to accurately predict credit risk, classifying clients as "Good" or "Bad" based on their likelihood of defaulting on loans.
@@ -28,7 +27,7 @@ The dataset consists of credit applicants, with each row representing an applica
 
 *Distribution of Credit Characteristics*
 
-![Distribution of Credit Characteristics](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Distribution of Credit Characteristics](images/various_distributions.png)
 
 
 - ***Distribution of Credit Duration:*** A right-skewed distribution, indicating a majority of credits have shorter durations, with a tail towards longer durations.
@@ -54,7 +53,7 @@ The dataset consists of credit applicants, with each row representing an applica
 | SVM                 | 0.730    | 0.615385  | 0.266667 | 0.372093 |
 
 
-![Baseline_models](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Baseline_models](images/baseline_models.png)
 
 
 - ***Model Selection:***  Based on the provided metrics, Random Forest appears to be the most suitable model for this particular problem.
@@ -79,7 +78,7 @@ The dataset consists of credit applicants, with each row representing an applica
 ## Best Models Comparison
 
 
-![best_models_comparison](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![best_models_comparison](images/best_models.png)
 
 - Random Forest significantly outperforms XGBoost in terms of Precision, Recall, and F1-Score. This indicates that Random Forest is better at correctly identifying positive cases and has a better balance between precision and recall.
 
@@ -97,7 +96,7 @@ Stacking ensembles aim to leverage the strengths of multiple models by combining
 
 
 
-![ensembles](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![ensembles](images/ensemble.png)
 
 
 The Stacking Ensemble consistently outperforms both XGBoost and Random Forest across all metrics, indicating its superior performance.
